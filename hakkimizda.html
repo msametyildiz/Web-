@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<ul>
+		<li><a href="index.html">Ana Sayfa</a></li>
+		<li><a href="hakkimizda.html">Hakkımızda</a></li>
+		<li><a href="iletisim.html">İletişim</a></li>
+		<li style="float: right;font-size: 19px;"><a href="mailto:samet.saray.06@gmail.com">samet.saray.06@gmail.com</a></li>
+	</ul>
+	<form>
+		<label for="isim">İsim</label>
+		<input type="text" id="isim" placeholder="isminizi girin..">
+		<label for="soyisim">Soyisim</label>
+		<input type="text" id="soyisim" placeholder="Soyisminizi girin..">
+		<label for="ulke" >Ülke</label>
+		<select id="ulke" >
+			<option disabled selected>Bir Ülke Seçiniz </option>
+			<option>Türkiye</option>
+			<option>Rusya</option>
+			<option>Amerika</option>
+			<option>İngiltere</option>
+			<option>Fransa</option>
+			<option>Çin</option>
+		</select>
+		<p>Cinsiyet</p>
+		<label id="erkek"><input for="erkek" type="radio"name="cinsiyet">Erkek</label>
+		<label id="kadin"><input for="kadin" type="radio" name="cinsiyet">
+Kadın</label>
+		<br><br>
+		<input type="submit" id="submit" value="gönder">
+	</form>
+</body>
+</html>
